@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(20, 92, 182);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.icon{
+    font-size: 40px;
+}
+
+.reload{
+width: 100%;
+padding: 10px;
+height: 70px;
+}
+
+
+
+.card{
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
